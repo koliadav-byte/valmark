@@ -12,7 +12,7 @@ import CadenceCalendar from '../sections/CadenceCalendar';
 import SubscribeContact from '../sections/SubscribeContact';
 import Sidebar from '../sections/Sidebar';
 import Footer from '../sections/Footer';
-import './App.css';
+import '../App.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
