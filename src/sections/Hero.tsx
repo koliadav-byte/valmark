@@ -101,7 +101,7 @@ export default function Hero() {
           </p>
 
           <p className="hero-tagline text-lg text-[#C9A962] italic mb-10">
-            «Рынок → давление на решения собственника»
+            «Понимание рынка — самый дорогой актив»
           </p>
 
                     <div className="hero-cta flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -129,10 +129,11 @@ export default function Hero() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {researchAreas.map((area, index) => {
             const Icon = area.icon;
+            const paths = ['macro-view', 'future-habitat', 'business-intelligence', 'heritage-code', 'human-centric'];
             return (
               <a
                 key={index}
-                href="/#rubrics"
+                href={`/${paths[index]}`}
                 className="research-card group p-6 bg-[#111111] border border-gray-800 rounded-xl hover:border-[#C9A962]/50 hover:bg-[#161616] transition-all duration-300 cursor-pointer block"
               >
                 <div className="w-12 h-12 bg-[#C9A962]/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#C9A962]/20 transition-colors">

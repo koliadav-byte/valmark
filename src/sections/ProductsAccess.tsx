@@ -5,14 +5,14 @@ import { Layers, FileText, Users, PackageOpen } from 'lucide-react';
 const products = [
   {
     title: 'Briefings Light',
-    price: '€120',
+    price: 'Free',
     desc: 'Короткий прикладной разбор под один управленческий вопрос.',
     icon: FileText,
     cta: 'Запросить',
   },
   {
     title: 'Briefings',
-    price: 'по запросу',
+    price: '950р / мес',
     desc: 'Глубокий отчёт: гипотезы → модель → сценарии (Base/Stress) → выводы для ролей.',
     icon: Layers,
     cta: 'Обсудить',
@@ -26,7 +26,7 @@ const products = [
   },
   {
     title: 'Strategy-in-a-Box',
-    price: '€3.000',
+    price: '290 000₽',
     desc: 'Пакет для стратегической сессии: материалы, рамки решений, риск‑карты.',
     icon: PackageOpen,
     cta: 'Запросить',
